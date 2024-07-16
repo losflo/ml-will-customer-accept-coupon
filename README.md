@@ -1,5 +1,7 @@
 # Will a Customer Accept the Coupon?
 
+For the detailed steps I used in this analysis, please refer to [Jupyter Notebook](https://github.com/losflo/ml-will-customer-accept-coupon/blob/main/prompt.ipynb)
+
 ### Problem 
 With the included data, find out which customer group will accept the coupon the most to increase marketing efforts for these groups of people.
 
@@ -33,3 +35,5 @@ To answer this question
 I found once again that `occupation` is the greatest indicator of whether the coupon will be used or not. However, in this case the occupation with the highest acceptance rate is `Office & Administrative Support` with a lower volume. With this in mind I would also use the `Student` occupation as it has a larger volume to target a larger group of people. My recommendation to increase coupon use would be to target individuals with occupation `Office & Administrative Support` or `Student` and are under the age of 25.
 
 The same problem arises in this sub-investigation. Volume. Out of 12K data points, would you make a decision based on 600 datapoints that would require investing money into? My thought would be no. I believe data analysis is a dance between finding a correlation in a big enough subset of data to be confident enough to make decisions off of. How large would this subset of data need to be? Personal or Company preference would be my guess.
+
+For the detailed steps I used in this analysis, please refer to [Jupyter Notebook](https://github.com/losflo/ml-will-customer-accept-coupon/blob/main/prompt.ipynb)
